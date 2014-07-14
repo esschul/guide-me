@@ -1,0 +1,29 @@
+/* CSS declarations go here */
+html, body { 
+	height:100%; 
+	margin: 0;
+}
+
+#menu button {
+	width:160px;
+	line-height: 20px;
+	font-size: 14px;		
+}
+#menu {
+	padding:10px;
+	position: absolute; 
+	top: 50px; 
+	left: 150px; 
+	z-index:99;
+	border:1px black solid;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background:#fff;
+	color:#000;
+	font-size: 20px;
+	font-family:tahoma
+}
+
+#map-canvas {
+	width: 100%; height: 100%; margin: 0px; top: 0px; overflow: hidden; z-index: 1; position: relative;
+}/* CSS declarations go here */

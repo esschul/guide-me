@@ -1,0 +1,18 @@
+<head>
+  <title>guide me</title>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+</head>
+
+<body>
+	{{> menu}}
+	<div id="map-canvas"></div>
+</body>
+
+
+<template name="menu">
+	<div id="menu">
+		<button id="show-me-on-the-map">show me on the map</button><br>
+		<button id="draw-directions-on-the-map">let me draw a route</button>
+	</div>
+	<div id="directionsPanel"></div>
+</template>
