@@ -4,23 +4,27 @@ html, body {
 	margin: 0;
 }
 
-#menu button {
-	width:160px;
-	line-height: 20px;
-	font-size: 14px;		
+
+#menu #show-me-on-the-map {
+
 }
+
+#menu #draw-directions-on-the-map {
+
+}
+
 #menu button {
 	background-color:#44c767;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
-	border-radius:28px;
+	border-radius:5px;
 	border:1px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:arial;
-	font-size:17px;
-	padding:16px 31px;
+	font-size:14px;
+	padding:12px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
 }
@@ -29,18 +33,16 @@ html, body {
 }
 #menu button:active {
 	position:relative;
-	top:1px;
 }
 
 
 #menu {
-	padding-top: 35px;
-	padding-left: 120px;
 	position: absolute; 
-	float:right;
 	z-index:99;
 	font-size: 20px;
-	font-family:tahoma
+	font-family:tahoma;
+	bottom:15px;
+	right:0px;
 }
 
 #map-canvas {
